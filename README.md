@@ -19,7 +19,7 @@ CORS response headers
 
 <h2>USAGE:</h2>
 1-Enter the domain you want to scan in the domain section at the bottom of the code.<br>
-2-Use this command "python3 SecondOrderDomainTakeovers.py" or "python SecondOrderDomainTakeovers.py"
+2-Use this command "python3 SOST.py" or "python SOST.py"
 
 
 
