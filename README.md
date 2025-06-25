@@ -1,14 +1,20 @@
-<h1>What Does "Second-Order-Subdomain" Mean?</h1>
+<h1>🔐 What is Second-Order Subdomain Takeover?</h1>
 
-A first-degree subdomain takeover is when a subdomain (e.g. store.example.com) is directly outside your control.
+Second-Order Subdomain Takeover refers to a security issue where a subdomain is not directly vulnerable, but it is indirectly referenced by other applications or websites in a way that allows exploitation after an attacker takes control of it.
+<h2>🧠 How is it different from regular subdomain takeover?</h2>
 
-A second-degree attack is not a subdomain, but rather a poorly structured resource used in relation to that subdomain. <br>
-For example:
-<br><br>
-External JavaScript (<script src="...">)<br>
-Links (<ahref="...">)<br>
-CSS (<linkhref="...">)<br>
-CORS response headers
+  Regular Subdomain Takeover: The vulnerable subdomain is actively pointing (via CNAME or A record) to a third-party service (e.g., GitHub, Heroku) that is not claimed. Anyone can claim it and host content.
+
+  Second-Order Subdomain Takeover: The vulnerable subdomain might not even appear in a browser or website, but it’s referenced in places like:
+
+        script-src, iframe, img, style, or API calls (XHR/fetch) inside HTML/JS
+
+        DNS-based settings (e.g., SPF, DKIM)
+
+        CORS headers, CSP headers
+
+        External services (e.g., ads, analytics, CDNs)
+
 
 
 
