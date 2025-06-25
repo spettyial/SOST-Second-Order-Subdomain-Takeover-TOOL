@@ -6,11 +6,8 @@ A second-degree attack is not a subdomain, but rather a poorly structured resour
 For example:
 <br><br>
 External JavaScript (<script src="...">)<br>
-
-Links "(<a href="...">)"<br>
-
-CSS "(<link href="...">)"<br>
-
+Links (<ahref="...">)<br>
+CSS (<linkhref="...">)<br>
 CORS response headers
 
 
