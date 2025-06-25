@@ -2,12 +2,12 @@
 
 A first-degree subdomain takeover is when a subdomain (e.g. store.example.com) is directly outside your control.
 
-A second-degree attack is not a subdomain, but rather a poorly structured resource used in relation to that subdomain. 
+A second-degree attack is not a subdomain, but rather a poorly structured resource used in relation to that subdomain. <br>
 For example:
-
-External JavaScript (<script src="...">)
-Links (<a href="...">)
-CSS (<link href="...">)
+<br>
+External JavaScript (<script src="...">)<br>
+Links (<a href="...">)<br>
+CSS (<link href="...">)<br>
 CORS response headers
 
 
