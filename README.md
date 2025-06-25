@@ -1,7 +1,7 @@
-<h1>🔐 What is Second-Order Subdomain Takeover?</h1>
+<h1> What is Second-Order Subdomain Takeover?</h1>
 
 Second-Order Subdomain Takeover refers to a security issue where a subdomain is not directly vulnerable, but it is indirectly referenced by other applications or websites in a way that allows exploitation after an attacker takes control of it.
-<h2>🧠 How is it different from regular subdomain takeover?</h2>
+<h2> How is it different from regular subdomain takeover?</h2>
 
   <b>Regular Subdomain Takeover:</b> The vulnerable subdomain is actively pointing (via CNAME or A record) to a third-party service (e.g., GitHub, Heroku) that is not claimed. Anyone can claim it and host content.
 
