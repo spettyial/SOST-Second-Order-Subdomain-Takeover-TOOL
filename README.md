@@ -13,12 +13,12 @@ CORS response headers
 
 
 <h2>REQUIREMENTS:</h2>
-1-python3
+1-python3<br>
 2-pip install requests beautifulsoup4 urllib3
 
 
 <h2>USAGE:</h2>
-1-Enter the domain you want to scan in the domain section at the bottom of the code.
+1-Enter the domain you want to scan in the domain section at the bottom of the code.<br>
 2-Use this command "python3 SecondOrderDomainTakeovers.py" or "python SecondOrderDomainTakeovers.py"
 
 
